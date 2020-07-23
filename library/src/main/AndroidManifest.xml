@@ -1,0 +1,21 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wang.crop">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:supportsRtl="true">
+
+
+        <activity
+            android:name="com.wang.crop.CropImageActivity"
+            android:screenOrientation="portrait" />
+        
+        <activity
+            android:name="com.wang.crop.MonitoredActivity"
+            android:screenOrientation="portrait" />
+    </application>
+</manifest>
